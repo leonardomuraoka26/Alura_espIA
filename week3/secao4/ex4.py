@@ -23,8 +23,8 @@ def soma_listas(lista1: list, lista2: list):
         lista_final = [(lista1[i], lista2[i], lista1[i] + lista2[i]) for i in range(len(lista1))]
     except IndexError:
         return "A quantidade de elementos em cada lista é diferente."
-    except TypeError:
-        return "As listas devem ser compostas somente por números."
+    except Exception as e:
+        return (type(e), f"Erro: {e}")
     else:
         return lista_final
 
