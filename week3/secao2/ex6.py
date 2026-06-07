@@ -1,3 +1,12 @@
+'''6. Para atender a uma demanda de uma instituição de ensino para a análise do
+desempenho de seus(suas) estudantes, você precisa criar uma função que receba uma
+lista de 4 notas e retorne:
+
+maior nota
+menor nota
+média
+situação (Aprovado(a) ou Reprovado(a))'''
+
 def boletim(lista):
 
     maior = max(lista)
