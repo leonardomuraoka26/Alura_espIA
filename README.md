@@ -10,3 +10,6 @@ week3 - Semana 3 (Python para Dados: trabalhando com funções, estruturas de da
 week4 - Semana 4
     secao1 - Praticando Python: condicionais if, elif e else
     secao2 - Praticando Python: laços for e while
+
+week5 - Semana 5
+    secao1 - Praticando Python: funções (simples, parâmetros padrão, built-in, recursivas, lambda e closure)
